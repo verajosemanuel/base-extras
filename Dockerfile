@@ -2,7 +2,8 @@ FROM jvera/tidyviz-base:latest
 
 LABEL maintainer "vera.josemanuel@gmail.com"
 
-RUN install2.r --error --deps TRUE anim.plots \
+RUN Rscript -e 'source("http://bioconductor.org/biocLite.R"); biocLite(ask=FALSE); biocLite("EBImage", ask=FALSE); biocLite("ggtree", ask=FALSE)'  > /tmp/packages_bioc.R \
+&& install2.r --error --deps TRUE anim.plots \
 animation \
 basictabler \
 bigrquery \
