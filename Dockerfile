@@ -16,6 +16,8 @@ cr17 \
 d3heatmap \
 d3Tree \
 DiagrammeR \
+R.utils \
+alphahull \
 directlabels \
 dygraphs \
 egg \
