@@ -2,8 +2,7 @@ FROM jvera/tidyviz-base:latest
 
 LABEL maintainer "vera.josemanuel@gmail.com"
 
-RUN Rscript -e 'source("http://bioconductor.org/biocLite.R"); biocLite(ask=FALSE); biocLite("EBImage", ask=FALSE); biocLite("ggtree", ask=FALSE)'  > /tmp/packages_bioc.R \
-&& install2.r --error anim.plots \
+RUN install2.r --error anim.plots \
 animation \
 basictabler \
 bigrquery \
@@ -99,7 +98,6 @@ rgl \
 RgoogleMaps \
 riverplot \
 rlang \
-rmapzen \
 rmarkdown \
 rpostgis \
 rts \
@@ -120,3 +118,5 @@ udpipe \
 visNetwork \
 waterfalls \
 && rm -rf /tmp/downloaded_packages/  /tmp/*.rds
+
+# Rscript -e 'source("http://bioconductor.org/biocLite.R"); biocLite(ask=FALSE); biocLite("EBImage", ask=FALSE); biocLite("ggtree", ask=FALSE)'  > /tmp/packages_bioc.R 
