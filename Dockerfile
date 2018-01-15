@@ -45,6 +45,7 @@ ggrepel \
 ggridges \
 ggsci \
 ggseas \
+ggsn \
 ggtern \
 ggThemeAssist \
 ggthemes \
