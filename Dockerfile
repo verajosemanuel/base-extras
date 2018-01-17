@@ -25,7 +25,6 @@ geofacet \
 geonames \
 geoR \
 geosphere \
-GeoXp \
 GGally \
 ggalt \
 ggbeeswarm \
