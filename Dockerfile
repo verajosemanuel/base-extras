@@ -110,7 +110,6 @@ smpic \
 sp \
 sparklyr \
 spatstat \
-stow \
 threejs \
 tmap \
 tmaptools \
