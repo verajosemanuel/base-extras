@@ -85,7 +85,7 @@ plotKML \
 plotly \
 plotrr \
 postGIStools \
-printr \
+pmap \
 quantmod \
 questionr \
 raster \
