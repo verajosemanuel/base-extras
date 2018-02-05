@@ -78,7 +78,7 @@ mapview \
 metricsgraphics \
 mschart \
 networkD3 \
-OutliersO3 \
+outliers \
 pipefittr \
 placement \
 plotKML \
