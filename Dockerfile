@@ -4,6 +4,7 @@ LABEL maintainer "vera.josemanuel@gmail.com"
 
 RUN install2.r --error anim.plots \
 animation \
+autoplotly \
 basictabler \
 bigrquery \
 bookdown \
@@ -44,6 +45,7 @@ ggridges \
 ggsci \
 ggseas \
 ggsn \
+ggstance \
 ggtern \
 ggThemeAssist \
 ggthemes \
