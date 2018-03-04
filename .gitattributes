@@ -1,0 +1,6 @@
+# Basic .gitattributes for a R repo.
+
+# Source files
+# ============
+*.md linguist-language=r
+*.Rmd linguist-language=r
