@@ -2,6 +2,8 @@ FROM jvera/tidyviz-base:latest
 
 LABEL maintainer "vera.josemanuel@gmail.com"
 
+RUN  Rscript -e "devtools::install_github('rich-iannone/DiagrammeR')"
+
 RUN install2.r --error anim.plots \
 animation \
 autoplotly \
@@ -15,7 +17,6 @@ cowplot \
 cr17 \
 d3heatmap \
 d3Tree \
-DiagrammeR \
 R.utils \
 alphahull \
 directlabels \
