@@ -119,7 +119,8 @@ udpipe \
 visNetwork \
 waterfalls \
 yarrr \
-&& rm -rf /tmp/downloaded_packages/  /tmp/*.rds
+&& rm -rf /tmp/downloaded_packages/  /tmp/*.rds \
+&& Rscript /tmp/github_installs.R
 
 # && Rscript -e 'source("http://bioconductor.org/biocLite.R"); biocLite(ask=FALSE); biocLite("EBImage", ask=FALSE); biocLite("ggtree", ask=FALSE)' > /tmp/packages_bioc.R \
 
