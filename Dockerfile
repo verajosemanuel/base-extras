@@ -2,7 +2,7 @@ FROM jvera/tidyviz-base:latest
 
 LABEL maintainer "vera.josemanuel@gmail.com"
 
-RUN  Rscript -e "devtools::install_github('rich-iannone/DiagrammeR')"
+ADD github_installs.R /tmp/github_installs.R
 
 RUN install2.r --error anim.plots \
 animation \
