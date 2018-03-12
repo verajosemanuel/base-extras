@@ -37,6 +37,7 @@ ggbeeswarm \
 ggcorrplot \
 ggedit \
 ggforce \
+ggfortify \
 gghighlight \
 ggimage \
 ggiraph \
