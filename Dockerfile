@@ -6,7 +6,8 @@ ADD github_installs.R /tmp/github_installs.R
 
 # RUN Rscript /tmp/github_installs.R
 
-RUN install2.r --error anim.plots \
+RUN install2.r --error viridis \
+anim.plots \
 animation \
 autoplotly \
 basictabler \
