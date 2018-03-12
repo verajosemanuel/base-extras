@@ -6,7 +6,8 @@ ADD github_installs.R /tmp/github_installs.R
 
 # RUN Rscript /tmp/github_installs.R
 
-RUN install2.r --error viridis \
+RUN install2.r --error viridisLite \
+viridis \
 anim.plots \
 animation \
 autoplotly \
