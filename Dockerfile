@@ -85,6 +85,7 @@ metricsgraphics \
 mschart \
 networkD3 \
 outliers \
+OutliersO3 \
 pipefittr \
 placement \
 plotKML \
