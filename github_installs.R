@@ -58,6 +58,7 @@ install_github("trestletech/shinyAce")
 install_github("vqv/ggbiplot")
 install_github("wilkox/ggfittext")
 install_github("WinVector/rquery")
+install_github("yutannihilation/mediumr")
 
 # install_github("gsimchoni/kandinsky")
 # install_github("MangoTheCat/goodpractice")
