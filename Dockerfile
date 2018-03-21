@@ -31,7 +31,6 @@ geofacet \
 geonames \
 geoR \
 geosphere \
-GGally \
 ggalt \
 ggbeeswarm \
 ggcorrplot \
