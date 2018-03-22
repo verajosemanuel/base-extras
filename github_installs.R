@@ -1,5 +1,8 @@
 library(devtools)
 
+packages<-c("viridisLite", "viridis", "anim.plots", "animation", "autoplotly", "basictabler")
+check.packages(packages)
+
 install_github("AliciaSchep/gglabeller")
 install_github("AppliedDataSciencePartners/xgboostExplainer")
 install_github("aryoda/tryCatchLog")
