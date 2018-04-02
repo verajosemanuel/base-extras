@@ -4,7 +4,7 @@ LABEL maintainer "vera.josemanuel@gmail.com"
 
 ADD github_installs.R /tmp/github_installs.R
 
-RUN Rscript /tmp/github_installs.R
+# RUN Rscript /tmp/github_installs.R
 
 RUN install2.r --error bigrquery \
 bookdown \
