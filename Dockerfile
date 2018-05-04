@@ -41,6 +41,7 @@ ggsci \
 ggseas \
 ggsn \
 ggstance \
+ggstatsplot \
 ggtern \
 ggThemeAssist \
 ggthemes \
