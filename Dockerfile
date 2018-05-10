@@ -13,6 +13,7 @@ d3heatmap \
 d3Tree \
 R.utils \
 alphahull \
+datamaps \
 directlabels \
 dygraphs \
 egg \
