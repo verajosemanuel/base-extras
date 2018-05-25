@@ -79,6 +79,7 @@ plotKML \
 plotly \
 plotrr \
 postGIStools \
+promises \
 quantmod \
 questionr \
 raster \
