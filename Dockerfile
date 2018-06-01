@@ -2,28 +2,13 @@ FROM jvera/tidyviz-base:latest
 
 LABEL maintainer "vera.josemanuel@gmail.com"
 
-RUN install2.r --error bigrquery \
-cartography \
-choroplethr \
-cr17 \
-d3heatmap \
-d3Tree \
-alphahull \
-datamaps \
-directlabels \
-dygraphs \
-egg \
-gdalUtils \
-geofacet \
-geonames \
-geoR \
-geosphere \
-ggalt \
-ggbeeswarm \
-ggcorrplot \
-ggedit \
-ggforce \
-ggfortify \
+packages<-c("bigrquery", "cartography", "choroplethr", "cr17", "d3heatmap", "d3Tree", "alphahull", "datamaps", "directlabels", "dygraphs")
+check.packages(packages)
+
+packages<-c("egg", "gdaUtils", "geofacet", "geonames", "geoR", "geosphere", "ggalt", "ggbeeswarm", "ggcorrplot", "ggedit", "ggforce")
+check.packages(packages)
+
+RUN install2.r --error ggfortify \
 gghighlight \
 ggimage \
 ggiraph \
