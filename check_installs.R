@@ -3,3 +3,95 @@ check.packages(packages)
 
 packages<-c("egg", "gdaUtils", "geofacet", "geonames", "geoR", "geosphere", "ggalt", "ggbeeswarm", "ggcorrplot", "ggedit", "ggforce")
 check.packages(packages)
+
+
+packages<-c("ggfortify", \
+"gghighlight", \
+"ggimage", \
+"ggiraph", \
+"ggmap", \
+"ggplotAssist", \
+"ggplotgui", \
+"ggpubr", \
+"ggraph", \
+"ggrepel", \
+"ggridges", \
+"ggsci", \
+"ggseas", \
+"ggsn", \
+"ggstance", \
+"ggstatsplot", \
+"ggtern", \
+"ggThemeAssist", \
+"ggthemes", \
+"ggvis", \
+"gmodels", \
+"gpclib", \
+"gridExtra", \
+"gtable", \
+"gtrendsR", \
+"heatmaply", \
+"hexbin", \
+"hexSticker", \
+"highcharter", \
+"hrbrthemes", \
+"htmlwidgets", \
+"igraph", \
+"leaflet", \
+"lemon", \
+"liftr", \
+"linemap", \
+"magick", \
+"manipulate", \
+"mapdata", \
+"mapedit", \
+"mapmisc", \
+"maps", \
+"mapsapi", \
+"maptools", \
+"mapview", \
+"metricsgraphics", \
+"mschart", \
+"networkD3", \
+"outliers", \
+"OutliersO3", \
+"pipefittr", \
+"placement", \
+"plotKML", \
+"plotly", \
+"plotrr", \
+"postGIStools", \
+"promises", \
+"quantmod", \
+"questionr", \
+"raster", \
+"rasterVis", \
+"reprex", \
+"revealjs", \
+"rgdal", \
+"rgeos", \
+"rgl", \
+"RgoogleMaps", \
+"riverplot", \
+"rpostgis", \
+"rts", \
+"rvg", \
+"rworldmap", \
+"scatterplot3d", \
+"shapefiles", \
+"sinew", \
+"smpic", \
+"sp", \
+"sparklyr", \
+"spatstat", \
+"threejs", \
+"tmap", \
+"tmaptools", \
+"udpipe", \
+"visNetwork", \
+"waterfalls")
+
+
+check.packages(packages)
+
+
