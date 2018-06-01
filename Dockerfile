@@ -2,11 +2,9 @@ FROM jvera/tidyviz-base:latest
 
 LABEL maintainer "vera.josemanuel@gmail.com"
 
-packages<-c("bigrquery", "cartography", "choroplethr", "cr17", "d3heatmap", "d3Tree", "alphahull", "datamaps", "directlabels", "dygraphs")
-check.packages(packages)
+ADD check_installs.R /tmp/check_installs.R
 
-packages<-c("egg", "gdaUtils", "geofacet", "geonames", "geoR", "geosphere", "ggalt", "ggbeeswarm", "ggcorrplot", "ggedit", "ggforce")
-check.packages(packages)
+RUN Rscript /tmp/github_installs.R 
 
 RUN install2.r --error ggfortify \
 gghighlight \
