@@ -4,7 +4,8 @@ check.packages(packages)
 packages<-c("egg", "gdaUtils", "geofacet", "geonames", "geoR", "geosphere", "ggalt", "ggbeeswarm", "ggcorrplot", "ggedit", "ggforce")
 check.packages(packages)
 
-packages<-c("ggfortify", 
+packages<-c("ggdistribute",
+"ggfortify", 
 "gghighlight", 
 "ggimage", 
 "ggiraph", 
