@@ -89,7 +89,8 @@ packages<-c("ggdistribute",
 "tmaptools", 
 "udpipe", 
 "visNetwork", 
-"waterfalls")
+"waterfalls",
+"autoplotly")
 
 
 check.packages(packages)
